@@ -3,12 +3,12 @@
 body{  
     margin: 0;
     padding: 0;
- background-color:#DAE3E7;
+ background-color:white;
 }
 
 .container{
     max-width: 1100px;
-    margin: 15.9%;
+    margin-left: 18.9%;
     font-family: 'Motserrat',sans-serif;
    ;
 }
@@ -17,11 +17,19 @@ body{
 
 header{
     background-image: url(./1632578946975.jpg);
-   padding: 10px ; 
+   padding: 145px ; 
+}
+
+.header-but:hover{
+  text-decoration: none;
+  color: #7bebff;
+  background-color: #2b2a2c;
 }
 
 .header-but{
   float: right;
+  background-color: rgb(33, 34, 102);
+  color: violet;
 }
 
 .btn_mode {
@@ -133,6 +141,7 @@ transform: rotate(90deg);
 overflow: auto;
 visibility: visible;
 left: 0;
+width: 221px;
 }
 
 .menu__btn > span,
@@ -601,8 +610,18 @@ img{
  
 header{
   background-image: url(./163274720638901.jpg);
-  padding: 90px;
+  padding: 140px;
 }
+
+.container{
+  margin: 50px 0px 0 120px;
+}
+
+.header-but{
+  margin: 60px;
+}
+
+
 
 .aside{
   display: none;
@@ -720,6 +739,8 @@ transition-duration: .25s;
     width: 15px;
 
   } 
+
+
 
   .header-text h2{
     display: flex;
@@ -912,9 +933,12 @@ transition-duration: .25s;
     height: 200px;
     width: 200px;
     display: flex;
+    margin-bottom: 150px;
   }
 
+  .menu__box .aside-info{
 
+  } 
 
 
 
