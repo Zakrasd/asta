@@ -30,6 +30,7 @@ header{
   float: right;
   background-color: rgb(33, 34, 102);
   color: violet;
+  padding: 5px;
 }
 
 .btn_mode {
@@ -621,7 +622,14 @@ header{
   margin: 60px;
 }
 
+.about-info{
+  padding: 30px;
+}
 
+.about-con{
+  width: 500px;
+  margin-left: 80px ;
+}
 
 .aside{
   display: none;
@@ -824,9 +832,9 @@ transition-duration: .25s;
 
   .services-info button{
     font-size: 7px;
-    padding: 5px ;
-    width: 100px;
-    min-width: 100px;
+    padding: 7px ;
+    width: 110px;
+    min-width: 110px;
     align-items: center;
     margin-top: 2px;
     margin-left: 22px;
@@ -896,8 +904,29 @@ transition-duration: .25s;
     display: flex;
     height: 130px;
     width: 140px;
-    font-size: x-small;
+    font-size: x-small ;
   }
+
+  #op{
+    font-size: 20px;
+  }
+
+  #po{
+    font-size: 12.7px;
+  }
+
+  .services-item h1{
+    font-size: 25px;
+  }
+
+  .services-info h3{
+font-size: 15px;
+  }
+
+.services-info p{
+font-size: 12px;
+}
+
 
   .aside-list{
 
@@ -965,8 +994,9 @@ transition-duration: .25s;
   .about-con{
     float: left;
     display: flexbox;
-    margin-left: 20px;
   }
+
+
 
   .menu__box{
     width: 260px;
