@@ -903,7 +903,7 @@ transition-duration: .25s;
   .about-info p{
     display: flex;
     height: 130px;
-    width: 140px;
+    width: 240px;
     font-size: x-small ;
   }
 
@@ -912,7 +912,7 @@ transition-duration: .25s;
   }
 
   #po{
-    font-size: 12.7px;
+    font-size: 14.7px;
   }
 
   .services-item h1{
