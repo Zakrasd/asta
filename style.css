@@ -627,8 +627,9 @@ header{
 }
 
 .about-con{
-  width: 500px;
+  width: 600px;
   margin-left: 80px ;
+  margin-right: 40px ;
 }
 
 .aside{
@@ -826,13 +827,14 @@ transition-duration: .25s;
     min-width: 0;
     font-size: x-small;
     padding: 10px 10px;
+    padding: 9px;
     align-items: center;
     margin-left: 9px;
   }
 
   .services-info button{
     font-size: 7px;
-    padding: 7px ;
+    padding: 8px ;
     width: 110px;
     min-width: 110px;
     align-items: center;
@@ -912,7 +914,7 @@ transition-duration: .25s;
   }
 
   #po{
-    font-size: 14.7px;
+    font-size: 16.7px;
   }
 
   .services-item h1{
